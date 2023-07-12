@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>HL Mai Quyền</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="main2.css">
+  <link rel="stylesheet" href="main3.js">
+    <link rel="shortcut icon"  href="./logo2.jpg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        .anh{
+          width: 190px;
+          height: 250px;
+        }
+        .video{
+          width: 230px;
+          height: 250px;
+        }
+        .video1{
+          width: 200px;
+          height: 250px;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #141414;
+        }
+        #mainPhoto{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            margin-bottom: 10px;
+
+        }
+        .imgCarousel{
+            width: 100px;
+            height: 130px;
+            transition: 0.3s;
+        }
+        .imgCarousel:hover{
+            width: 110px;
+            height: 140px;
+            border: 2px solid white;
+            margin: 3px;
+        }
+        img{
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        body{
+            background-color: #141414;
+            height: 100px;
+        }
+        #for-button {
+            background-color: #141414;
+            color: white;
+            border: 2px solid white; /* Green */
+            width: 100px;
+        }
+        #for-button:hover{
+          background-color: tomato;
+          color: #141414;
+          border: 2px solid white;
+        }
+        #for-HU{
+          margin-top: -800px;
+        }
+        
+      </style>
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg navbar-light"
+		style="background-color: #141414; color: aliceblue;">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src="./img/logo.jpg" alt="" style="width: 60px;"></a>
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="HL Mai Quyền" style="color: aliceblue;">HL Mai Quyền</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" style="color: aliceblue;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Thông Tin Cá Nhân
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100010772407461">FaceBook</a></li>
+              <li><a class="dropdown-item" href="#">Zalo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" style="color: aliceblue;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ẢNH
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./index2.html">Ảnh 1</a></li>
+              <li><a class="dropdown-item" href="./index3.html">Ảnh 2</a></li>
+              <li><a class="dropdown-item" href="./index4.html">Ảnh 3</a></li>
+              <li><a class="dropdown-item" href="./index5.html">Ảnh 4</a></li>
+              <li><a class="dropdown-item" href="./index6.html">Ảnh 5</a></li>
+              <li><a class="dropdown-item" href="./index7.html">Ảnh 6</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        
+        <form class="d-flex">
+          
+          
+          <a href="https://www.facebook.com/profile.php?id=100010772407461"><button href="https://www.facebook.com/profile.php?id=100010772407461" class="btn btn-outline-success" type="submit" id="for-button">FaceBook</button></a>
+        </form>
+        <form class="d-flex" >
+          <a href="/index2.html"><button class="btn btn-outline-success" type="submit" id="for-button">Zalo</button></a>
+          
+        </form>
+        
+        
+      </div>
+			</div>
+	</nav>
+  </header>
+  <main>
+    <div class="body">
+    <section class="wrapper">
+        <img id="mainPhoto" src="./img/anh5.jpg" alt="">
+        <div class="image-wrapper">
+            <img class="imgCarousel" src="./img/anh1.jpg" />
+            <img class="imgCarousel" src="./img/anh2.jpg" />
+            <img class="imgCarousel" src="./img/anh3.jpg" />
+            <img class="imgCarousel" src="./img/anh4.jpg" />
+            <img class="imgCarousel" src="./img/anh5.jpg" />
+            <img class="imgCarousel" src="./img/anh6.jpg" />
+            <img class="imgCarousel" src="./img/anh7.jpg" />
+            <img class="imgCarousel" src="./img/anh1.jpg" />
+        </div>
+    </section>
+    </div>
+    <div class="container" id="for-HU">
+    
+      <canvas></canvas>
+  
+      <h1 aria-label="Sarah Fossheim">
+        <span aria-hidden="true">
+          <span style="--index: 1s">HL</span>
+        </span>  
+          <span aria-hidden="true" class="spacing"  style="--index: 1.1"></span>
+        <span aria-hidden="true">
+          <span style="--index: 1.2s">M</span>
+          <span style="--index: 1.3s">A</span>
+          <span style="--index: 1.4s">I</span>
+          
+        </span>  
+          <span aria-hidden="true" class="spacing"  style="--index: 1.5"></span>
+        <span aria-hidden="true">
+          <span style="--index: 1.6s">Q</span>
+          <span style="--index: 1.7s">U</span>
+          <span style="--index: 1.8s">Y</span>
+          <span style="--index: 1.9s">Ề</span>
+          <span style="--index: 2s">N</span>
+        </span>  
+        <audio src="./Nhìn-Ngọn-Đèn-Mờ-Vội-Tắt-..mp3" autoplay controls hidden>
+        </audio>
+        <script src="./main2.js"></script>
+  </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
